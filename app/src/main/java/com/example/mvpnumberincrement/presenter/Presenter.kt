@@ -9,7 +9,7 @@ class Presenter(_view: ViewInterface?): PresenterInterface {
     var view: ViewInterface? = _view
     var modelClass = ModelClass()
 
-    override fun incrementNumber() {
+    override fun incrementModelNumber() {
         modelClass.incrementNumber()
    //     view?.showSuccess()
     }

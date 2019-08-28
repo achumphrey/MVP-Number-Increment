@@ -25,7 +25,7 @@ class MainActivity : AppCompatActivity(), ViewInterface {
     }
 
     override fun onIncrement() {
-       presenter.incrementNumber()
+       presenter.incrementModelNumber()
        tv_display.text = presenter.getModelNumber() .toString()
 
        showSuccess()
